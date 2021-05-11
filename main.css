@@ -1,0 +1,34 @@
+/*body{
+    background: url(vader.png);
+    height: 200px;
+    width: 200px;
+    
+}*/
+body{
+    background: rgb(52, 54, 53);
+}
+
+section{
+    background-color: rgb(34, 34, 34);
+    color: rgb(216, 221, 226);
+    border: solid rgb(228, 219, 219) 1px;
+    /*border-radius: 50%;  /*transforma a borda em um circulo*/
+    padding: 200px 30px;  /*distancia dos elementos da borda com o conteudo*/
+    margin: 20px ;  /*distancia dos elementos*/
+   /* border-top: dashed 1px  white;*/   /*muda a borda superior do quadrado*/
+    font-style: italic; /*faz a letra ficar inclinada*/
+    font-weight:bold; /*transforma a letra em negrito*/
+    font: normal 20pt arial;
+}
+article{
+    color: rgb(223, 217, 228);
+}
+#principal{
+    font: normal 20pt arial ;
+    font-style: italic; /*faz a letra ficar inclinada*/
+    padding: 20px;
+}
+a{
+    text-decoration:line-through; /*muda a decoração dos links colocando um traço*/
+    color: rgb(26, 115, 199);
+}
