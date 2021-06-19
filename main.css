@@ -5,13 +5,13 @@
     
 }*/
 body{
-    background: rgb(52, 54, 53);
+    background: rgb(37, 37, 37);
 }
 
 section{
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(44, 44, 44);
     color: rgb(216, 221, 226);
-    border: solid rgb(228, 219, 219) 1px;
+    border: solid rgb(228, 219, 219) 4px;
     /*border-radius: 50%;  /*transforma a borda em um circulo*/
     padding: 200px 30px;  /*distancia dos elementos da borda com o conteudo*/
     margin: 20px ;  /*distancia dos elementos*/
@@ -29,6 +29,13 @@ article{
     padding: 20px;
 }
 a{
-    text-decoration:line-through; /*muda a decoração dos links colocando um traço*/
+    text-decoration:line-through overline underline; /*muda a decoração dos links colocando um traço*/
     color: rgb(26, 115, 199);
+}
+img{
+    border-radius: 50%;
+}
+footer, ul,li{
+    list-style-type: upper-roman;
+    font:caption;
 }
